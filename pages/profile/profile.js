@@ -1,37 +1,13 @@
-// pages/home/home.js
+// pages/profile/profile.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name: "高猛",
-    age: 16,
-    students: [
-      {
-        id: 1,
-        name: "lisa",
-        age: 14
-      },
-      {
-        id: 2,
-        name: "cat",
-        age: 14
-      },
-      {
-        id: 3,
-        name: "lucy",
-        age: 34
-      }
-    ],
-    counter: 0
+
   },
-  handleClick(info){
-    console.log(info)
-    // this.setData({
-    //   counter: this.data.counter + 1
-    // })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -71,14 +47,14 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    console.log('下拉')
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    
+
   },
 
   /**

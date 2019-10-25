@@ -1,7 +1,34 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
   ],
-  "sitemapLocation": "sitemap25.json"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蘑菇街",
+    "backgroundColor": "#38adff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/images/tabbar/home.png",
+        "selectedIconPath": "assets/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "种类",
+        "iconPath": "assets/images/tabbar/category.png",
+        "selectedIconPath": "assets/images/tabbar/category_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap72.json"
 }
